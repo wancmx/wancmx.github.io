@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 欢迎来到我的第一个博客
 
 You can use the [editor on GitHub](https://github.com/wancmx/wancmx.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
