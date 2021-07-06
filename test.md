@@ -1,3 +1,3 @@
 # test
 
-[test](wancmx.github.io/test)
+[test](wancmx.github.io)
