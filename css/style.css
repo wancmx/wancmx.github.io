@@ -1,0 +1,443 @@
+@charset "UTF-8";
+/* CSS Document */
+html,body,h1,h2,h3,h4,h5,h6,img{
+	padding: 0;
+	margin: 0;
+}
+.nav{
+	width: 100%;
+	height: 80px;
+	background: rgba(0,0,0,0.2);
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+.guanggao{
+	width: 100%;
+	height: 40px;
+	background: rgba(18,18,18,0.8);
+}
+.nav-jj{
+	width: 100%;
+	font-size: 16px;
+	height: 40px;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: 0 auto;
+	font-weight: 100;
+	position: absolute;
+	padding: 0 100px;
+}
+.logo-01{
+	display: flex;
+	position: relative;
+	top: 4px;
+}
+.logo{
+	width: 30px;
+	height: 30px;
+}
+.nav-text{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-self: center;
+}
+.big{
+	color: #fff;
+	text-decoration: none;
+	width: 128px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	
+}
+.big:hover {
+	color: #999;
+	background: rgba(0,0,0,0.5)
+}
+.big:hover>ul{
+	display: block;
+}
+.bigbb{
+	width: 100px;
+}
+.bigaa{
+	width: 110px;
+}
+.nav-text-01{
+	display: flex;
+	align-self: center;
+	margin: 0 30px;
+}
+.search{
+	width: 160px;
+	height: 20px;
+	border-radius: 8px;
+	background: rgba(255,255,255,0.5);
+	border: none;
+	position: relative;
+	top:8px;
+	display: flex;
+	margin-right: 200px;
+	text-align: center;
+}
+.banner{
+	width: 100%;
+	height: 764px;
+	background-image:url("../iamges/banner.png");
+}
+.banner-text{
+	color:#fff;
+	position: relative;
+	text-align: center;
+	top: 40%;
+	font-size: 60px;
+	z-index: 1;
+}
+.banner-text02{
+	color:#fff;
+	position: relative;
+	text-align: center;
+	top: 45%;
+	font-size: 40px;
+	font-weight: 100;
+}
+.jnzs{
+	width: 128px;
+	background: rgba(0,0,0,0.7);
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: none;
+	border-radius: 0 0 8px 8px;
+}
+.jnzs-01{
+	color: #fff;
+}
+.zpzs{
+	width: 128px;
+	background: rgba(0,0,0,0.7);
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: none;
+	border-radius: 0 0 8px 8px;
+}
+.zpzs01{
+	color: #fff;
+}
+.jnzs-content{
+	width: 100%;
+	background: #e5e5e5;
+}
+
+.jnzs-content-znrq{
+	width: 1200px;
+	margin: 0 auto;
+}
+.jnzs-content-znrq-text{
+	padding: 40px 0 20px;
+}
+.znrp-text{
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.znrp-text-01{
+	text-align: center;
+	font-size: 16px;
+	font-weight: 200;
+}
+.znrp-text-001{
+	font-weight: 100;
+}
+.znrp-jN{
+	width: 280px;
+	height: 230px;
+	background: #fff;
+	margin: 8px;
+	display: inline-block;
+	border-radius: 8px;
+	box-shadow: 0px 1px rgba(0,0,0,0.25);
+	text-align: center;
+	padding-top: 80px;
+}
+.znrp-jN:hover{
+	box-shadow: 0 1px 10px rgba(0,0,0,0.25);
+}
+.znrp{
+	width: 100%;
+}
+.wenzi{
+	font-weight: 200;
+	line-height: 50px;
+	color: #666666;
+}
+.zpzs-product{
+	width: 100%;
+	background: #DDDDDD;
+	text-align: center;
+	padding: 0 0;
+}
+.zuopinzhanshi{
+	font-size: 30px;
+	color: #333333;
+	line-height: 50px;
+	font-weight: 200;
+}
+.zpzs-product-content{
+	width: 100%;
+	background: #FFFFFF;
+}
+.zpzs-pingmian{
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+	margin-bottom: 18px;
+}
+.zpzs-pingmian-zuo{
+	width: 50%;
+	height: 80vh;
+/*	display: inline-block;行内元素*/
+/*	display: flex;*/
+/*	align-items: center;*/
+/*	margin:0 300px;*/
+/*	background: #ccc;*/
+/*	padding-top: 10%;*/
+	background: #FFFFFF;
+}
+.zpzs-pimhmian-you{
+	width: 50%;
+	height: 80vh;
+	display: inline-block;
+/*	display: flex;*/
+	background: #fff;
+}
+.topbox{
+	width: 33.33%;
+	height: 47vh;
+	float: left;
+	background: #eee;
+	position: relative;
+	text-align: center;
+}
+.haibao{
+	background: url("../iamges/tangrui.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+.huace{
+	background:url("../iamges/huace.png") no-repeat;
+	background-size: 100% 100%;
+}
+.mingpian{
+	background: url("../iamges/mingpian.png") no-repeat;
+	background-size: 100% 100%;
+}
+.hover{
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	background: rgba(0,0,0, 0.5);
+	transition: all .8s;
+	writing-mode: vertical-lr;/*从左向右 从右向左是 writing-mode: vertical-rl;*/  
+    writing-mode: tb-lr;/*IE浏览器的从左向右 从右向左是 writing-mode: tb-rl；*/ 
+}
+.haibao:hover .hover1{
+	cursor: pointer;
+	height:0px;
+	opacity: 0;
+}
+.huace:hover .hover2{
+	cursor: pointer;
+	height:0px;
+	opacity: 0;
+}
+.mingpian:hover .hover3{
+	cursor: pointer;
+	height: 0px;
+	opacity: 0;
+}
+.zheye{
+	width: 50%;
+    height: 33vh;
+    display: inline-block;
+	float: left;
+	background: url("../iamges/01.png") no-repeat;
+	background-size: 100% 100%;
+	position:relative;
+}
+.zheye:hover .hover4{
+	cursor: pointer;
+	height:0px;
+	opacity: 0;
+}
+.shuji{
+    width: 50%;
+    height: 33vh;
+    display: inline-block;
+	float:left;
+	background: url("../iamges/shuji.png") no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.shuji:hover .hover5{
+	cursor: pointer;
+	height:0px;
+	opacity: 0;
+}
+.text{
+	    /* text-align: center; */
+    position:absolute;
+/*    width: 100%;*/
+	width:20px;
+    /* height: 20px; */
+    display: inline-block;
+    left: 43%;
+    top: 36%;
+	font-size: 26px;
+	font-weight: 200;
+}
+
+/*--------------------UI设计作品-------------------*/
+
+.zpzs-ui{
+	width: 100%;
+	display: flex;
+	box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+	margin-bottom: 18px;
+}
+.zpzs-ui-zuo{
+	width: 50%;
+	height: 80vh;
+/*	display: inline-block;行内元素*/
+/*	display: flex;*/
+/*	align-items: center;*/
+/*	margin:0 300px;*/
+/*	background: #ccc;*/
+/*	padding-top: 10%;*/
+	background: #FFFFFF;
+}
+.zpzs-ui-you{
+	width: 50%;
+	height: 80vh;
+	display: inline-block;
+/*	display: flex;*/
+	background: #fff;
+}
+	
+/*动图  -- 备注*/
+.moveimg{
+	height: 80vh;
+	width: 100%;
+	background: url("../iamges/dongtu1.jpg");
+}
+.moveimg:hover{
+	background: url("../iamges/dongtu.gif");
+}
+.app{
+	width: 50%;
+    height: 80vh;
+    display: inline-block;
+	float: left;
+	background:url("../iamges/jiemian.png") no-repeat;
+	background-size: 100% 100%;
+	position:relative;
+}
+.app:hover .hover4{
+	cursor: pointer;
+	height:0px;
+	opacity: 0;
+}
+.web{
+    width: 50%;
+    height: 80vh;
+    display: inline-block;
+	float:left;
+	background:url("../iamges/web.png") no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.web:hover .hover5{
+	cursor: pointer;
+	height:0px;
+	opacity: 0;
+}
+.text{
+	    /* text-align: center; */
+    position:absolute;
+/*    width: 100%;*/
+	width:20px;
+    /* height: 20px; */
+    display: inline-block;
+    left: 43%;
+    top: 36%;
+	font-size: 26px;
+	font-weight: 200;
+}
+.c4d{
+	height: 80vh;
+	width: 100%;
+	background: url("../iamges/c4dzuoipin.png") no-repeat;
+	background-size: 100% 100%;
+}
+.nav-bottom{
+	width: 100%;
+	background: #333;
+}
+.text-bottom{
+	list-style: none;
+	font-size: 12px;
+	color: #fff;
+	font-weight: 200;
+}
+
+.text-bottom-zuo{
+	height: 100%;
+	width: 20%;
+	background: #333;
+	display: inline-block;
+	padding-top: 14px;
+	text-align:left;
+}
+
+.text-bottom-01{
+	line-height: 40px;
+	padding: 0;
+	margin: 0;
+}
+.text-bottom-you{
+	height: 100%;
+	width: 20%;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 200;
+	color: #fff;	
+	text-align: left;
+	padding-left: 40%;
+}
+.tel{
+	line-height: 40px;
+	padding: 0;
+	margin: 0;
+	padding-top: 14px;
+	display: inline-block;
+}
+.icon{
+	display: inline-block;
+}
+.back{
+	width: 46px;
+	height: 46px;
+	background: rgba(0,0,0,0.3);
+	border-radius: 30px;
+	text-align: center;
+	padding-top: 5px;
+	position: fixed;
+	bottom: 20px;
+	right: 50px;
+}
